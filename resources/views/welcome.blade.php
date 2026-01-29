@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Imam Data Sub - {{ $title ?? 'Welcome to Imam Data Sub ' }}</title>
+        <title>Digital Verify - {{ $title ?? 'Welcome to Digital Verify' }}</title>
 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800&display=swap" rel="stylesheet" />
@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
         <!-- Open Graph / WhatsApp Meta Tags -->
-        <meta property="og:title" content="Imam Data Sub - Innovative Digital Solutions">
+        <meta property="og:title" content="Digital Verify Sub - Innovative Digital Solutions">
         <meta property="og:description" content="Empowering northern Nigeria through innovative digital solutions and smart technology services.">
         <meta property="og:image" content="{{ asset('assets/img/logo/logo.png') }}">
         <meta property="og:url" content="{{ url('/') }}">
@@ -36,7 +36,7 @@
         <header>
             <div class="container header-container">
                 <a href="#" class="logo">
-                    <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Imam Data Sub" style="height: 50px; margin-right: 10px;">
+                    <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Digital Verify Sub" style="height: 50px; margin-right: 10px;">
                 </a>
                 <div class="mobile-menu">
                     <i class="fas fa-bars"></i>
@@ -55,11 +55,11 @@
         </header>
 
         <!-- Hero Section -->
-        <section class="hero" id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 50, 20, 0.4)), 
+        <section class="hero" id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 47, 186, 0.4)), 
              url('{{ asset('assets/images/logo/hero.webp') }}') no-repeat center center/cover; min-height: 100vh; display: flex; align-items: center;">
             <div class="container hero-content text-center">
                 <h1 class="text-dark mb-4" data-aos="fade-down" data-aos-duration="1000" style="font-size: 3.5rem; font-weight: 800; color: #fff !important; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-                    Empowering Your Digital Evolution
+                    Agency and Verification Services for Your Business
                 </h1>
                 <p class="text-white mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" style="font-size: 1.25rem; max-width: 800px; margin: 0 auto; line-height: 1.6; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">
                     Experience premium agency services tailored for growth. Affordable, reliable, and innovative solutions at your fingertips.
@@ -79,7 +79,7 @@
         @include('pages.landing.services')
 
         <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials-section" style="padding: 100px 0; background: linear-gradient(135deg, #0d5c3e 0%, #094a32 100%);">
+        <section id="testimonials" class="testimonials-section" style="padding: 100px 0; background: linear-gradient(135deg, #002fba 0%, #001f7a 100%);">
             <!-- Background Patterns -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.05; background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
             
@@ -89,7 +89,7 @@
                     <h2 style="color: #fff; font-weight: 800; font-size: 2.8rem; margin-top: 10px;">Trusted by Leaders</h2>
                     <hr style="width: 80px; height: 4px; background: #fff; margin: 20px auto; border: none; border-radius: 2px;">
                     <p class="text-white-50" style="max-width: 650px; margin: 0 auto; font-size: 1.15rem;">
-                        See what our partners and clients have to say about their experience working with Imam Data Sub.
+                        See what our partners and clients have to say about their experience working with Digital Verify.
                     </p>
                 </div>
 
@@ -98,7 +98,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"Imam Data Sub transformed our operations with cutting-edge solutions. Their support team is always responsive and professional! Truly a game changer for our business."</p>
+                            <p class="review-text">"Digital Verify Sub transformed our operations with cutting-edge solutions. Their support team is always responsive and professional! Truly a game changer for our business."</p>
                             <div class="reviewer-info">
                                 <img src="{{ asset('assets/images/avatar/avatar-8.jpg') }}" alt="Abdulrahman Musa">
                                 <div>
@@ -116,12 +116,12 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"Working with Imam Data Sub has been a seamless experience. Their expertise and attention to detail are unmatched. They delivered exactly what we needed, on time."</p>
+                            <p class="review-text">"Working with Digital Verify Sub has been a seamless experience. Their expertise and attention to detail are unmatched. They delivered exactly what we needed, on time."</p>
                             <div class="reviewer-info">
                                 <img src="{{ asset('assets/images/avatar/avatar-3.jpg') }}" alt="Fatima Bello">
                                 <div>
                                     <h4>Fatima Bello</h4>
-                                    <span>Manager, Imam Data Sub Logistics</span>
+                                    <span>Manager, Digital Verify Sub Logistics</span>
                                     <div class="stars">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                     </div>
@@ -134,12 +134,12 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"The quality of service and support we've received from Imam Data Sub is outstanding. Highly recommended for any business looking to scale digitally."</p>
+                            <p class="review-text">"The quality of service and support we've received from Digital Verify Sub is outstanding. Highly recommended for any business looking to scale digitally."</p>
                             <div class="reviewer-info">
                                 <img src="{{ asset('assets/images/avatar/avatar-1.jpg') }}" alt="Emeka Johnson">
                                 <div>
                                     <h4>Emeka Johnson</h4>
-                                    <span>IT Director, Imam Data Sub Ltd</span>
+                                    <span>IT Director, Digital Verify Sub Ltd</span>
                                     <div class="stars">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                     </div>
@@ -156,13 +156,13 @@
         <!-- Footer -->
         <footer>
             <!-- Background Decoration -->
-            <div style="position: absolute; top: 0; right: 0; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0, 135, 81, 0.1) 0%, rgba(0,0,0,0) 70%);"></div>
+            <div style="position: absolute; top: 0; right: 0; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0, 47, 186, 0.1) 0%, rgba(0,0,0,0) 70%);"></div>
 
             <div class="container" style="position: relative; z-index: 2;">
                 <div class="row g-5">
                     <!-- Company Info -->
                     <div class="col-lg-4 col-md-6">
-                        <h2 style="color: #0d5c3e; font-weight: 800; margin-bottom: 25px; font-size: 2rem;">Imam Data Sub</h2>
+                        <h2 style="color: #002fba; font-weight: 800; margin-bottom: 25px; font-size: 2rem;">Digital Verify Sub</h2>
                         <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 30px;">
                             Providing innovative technology solutions to help businesses thrive in the digital world. We are committed to excellence and sustainable growth in Northern Nigeria.
                         </p>
@@ -177,7 +177,7 @@
                     <!-- Quick Links -->
                     <div class="col-lg-2 col-md-6">
                         <h3 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 25px; display: inline-block;">Quick Links</h3>
-                        <div style="width: 40px; height: 3px; background: #0d5c3e; margin-bottom: 20px;"></div>
+                        <div style="width: 40px; height: 3px; background: #002fba; margin-bottom: 20px;"></div>
                         <ul class="footer-links list-unstyled">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#services">Services</a></li>
@@ -191,7 +191,7 @@
                     <!-- Services -->
                     <div class="col-lg-3 col-md-6">
                         <h3 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 25px; display: inline-block;">Our Services</h3>
-                        <div style="width: 40px; height: 3px; background: #0d5c3e; margin-bottom: 20px;"></div>
+                        <div style="width: 40px; height: 3px; background: #002fba; margin-bottom: 20px;"></div>
                         <ul class="footer-links list-unstyled">
                             <li><a href="#">Web Development</a></li>
                             <li><a href="#">Mobile Apps</a></li>
@@ -204,19 +204,19 @@
                     <!-- Contact -->
                     <div class="col-lg-3 col-md-6">
                         <h3 style="color: #fff; font-size: 1.2rem; font-weight: 700; margin-bottom: 25px; display: inline-block;">Contact Us</h3>
-                        <div style="width: 40px; height: 3px; background: #0d5c3e; margin-bottom: 20px;"></div>
+                        <div style="width: 40px; height: 3px; background: #002fba; margin-bottom: 20px;"></div>
                         <ul class="footer-contact list-unstyled">
                             <li style="margin-bottom: 20px; display: flex;">
-                                <div style="width: 30px; color: #0d5c3e; margin-top: 2px;"><i class="fas fa-map-marker-alt"></i></div>
+                                <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-map-marker-alt"></i></div>
                                 <span style="color: rgba(255,255,255,0.8);">Tudun Wada Street, Gwammaja, Kano</span>
                             </li>
                             <li style="margin-bottom: 20px; display: flex;">
-                                <div style="width: 30px; color: #0d5c3e; margin-top: 2px;"><i class="fas fa-phone"></i></div>
+                                <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-phone"></i></div>
                                 <span style="color: rgba(255,255,255,0.8);">09112345678</span>
                             </li>
                             <li style="margin-bottom: 20px; display: flex;">
-                                <div style="width: 30px; color: #0d5c3e; margin-top: 2px;"><i class="fas fa-envelope"></i></div>
-                                <span style="color: rgba(255,255,255,0.8);">info@Imam Data Sub.com.ng</span>
+                                <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-envelope"></i></div>
+                                <span style="color: rgba(255,255,255,0.8);">info@Digital Verify Sub.com.ng</span>
                             </li>
                         </ul>
                     </div>
@@ -225,7 +225,7 @@
                 <hr style="border-color: rgba(255,255,255,0.1); margin: 60px 0 30px;">
                 
                 <div class="footer-bottom text-center">
-                    <p style="color: rgba(255,255,255,0.6); margin: 0;">&copy; {{ date('Y') }} Imam Data Sub. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #0d5c3e;"></i> by Imam Data Sub Team.</p>
+                    <p style="color: rgba(255,255,255,0.6); margin: 0;">&copy; {{ date('Y') }} Digital Verify Sub. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #002fba;"></i> by Digital Verify Sub Team.</p>
                 </div>
             </div>
         </footer>
@@ -259,17 +259,17 @@
                     <div class="modal-body">
                         <div class="text-center mb-4">
                             <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo" style="height: 60px;">
-                            <h4 class="mt-3 text-dark">Imam Data Sub Data Privacy Commitment</h4>
+                            <h4 class="mt-3 text-dark">Digital Verify Sub Data Privacy Commitment</h4>
                         </div>
 
                         <p class="lead text-center mb-4" style="font-size: 1.1rem; color: #555;">
-                            At Imam Data Sub, we are committed to protecting your personal data in compliance with the 
+                            At Digital Verify Sub, we are committed to protecting your personal data in compliance with the 
                             <strong>Nigeria Data Protection Regulation (NDPR) 2019</strong>.
                         </p>
 
                         <div class="policy-section">
                             <h5>1. Introduction</h5>
-                            <p>This Privacy Policy explains how Imam Data Sub collects, uses, and protects your personal information when you use our digital solutions, including our website, mobile applications, and NIN/BVN services.</p>
+                            <p>This Privacy Policy explains how Digital Verify Sub collects, uses, and protects your personal information when you use our digital solutions, including our website, mobile applications, and NIN/BVN services.</p>
                         </div>
                         
                         <div class="policy-section">

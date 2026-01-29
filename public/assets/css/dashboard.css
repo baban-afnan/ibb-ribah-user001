@@ -21,6 +21,7 @@
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
@@ -50,15 +51,15 @@
     .service-card .card-body {
         padding: 0.7rem !important;
     }
-    
+
     .service-card h6 {
         font-size: 12px !important;
     }
-    
+
     .service-card .avatar {
         padding: 0.4rem !important;
     }
-    
+
     .service-card i {
         font-size: 14px !important;
     }

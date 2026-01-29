@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Imam Data Sub - Educational Pin Receipt</title>
+    <title>Digital Verify - Educational Pin Receipt</title>
 
     <div class="page-body">
         <div class="container-fluid">

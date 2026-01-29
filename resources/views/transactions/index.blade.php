@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Imam Data Sub - Transactions</title>
+    <title>Digital Verify - Transactions</title>
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -22,8 +22,8 @@
                 <div class="col-12 col-xl-12 mb-4">
                     <div class="card shadow-sm border-0 rounded-3 h-100">
                         <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-                            <h5 class="mb-0 fw-bold"><i class="bi bi-receipt me-2"></i>Transactions</h5>
-                            <span class="badge bg-light text-primary fw-semibold">Imam Data Sub</span>
+                            <h5 class="mb-0 fw-bold text-white"><i class="bi bi-receipt me-2"></i>Transactions</h5>
+                            <span class="badge bg-light text-primary fw-semibold">Digital Verify</span>
                         </div>
                         <div class="card-body">
 

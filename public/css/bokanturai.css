@@ -1,7 +1,7 @@
 :root {
-    --aura-primary: #43a047;
+    --aura-primary: #002fba;
     /* Vibrant Green */
-    --aura-primary-dark: #2e7d32;
+    --aura-primary-dark: #002696;
     --aura-secondary: #546e7a;
     /* Blue Grey */
     --aura-accent: #ffd740;
@@ -123,11 +123,11 @@ body {
     border-radius: 9999px;
     font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(67, 160, 71, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 47, 186, 0.3);
 }
 
 .btn-aura:hover {
-    box-shadow: 0 6px 12px rgba(67, 160, 71, 0.4);
+    box-shadow: 0 6px 12px rgba(0, 47, 186, 0.4);
     transform: scale(1.05);
 }
 
@@ -162,7 +162,7 @@ body {
 }
 
 .service-icon {
-    background: rgba(67, 160, 71, 0.1);
+    background: rgba(0, 47, 186, 0.1);
     color: var(--aura-primary);
     width: 60px;
     height: 60px;
@@ -194,7 +194,7 @@ body {
 .form-input:focus {
     outline: none;
     border-color: var(--aura-primary);
-    box-shadow: 0 0 0 3px rgba(67, 160, 71, 0.2);
+    box-shadow: 0 0 0 3px rgba(0, 47, 186, 0.2);
 }
 
 /* Footer */
@@ -206,3 +206,5 @@ body {
 .footer-link:hover {
     color: var(--aura-primary);
 }
+
+

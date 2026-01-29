@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Imam Data Sub - {{ $title ?? 'NIN Validation & IPE' }}</title>
+    <title>Digital Verify - {{ $title ?? 'NIN Validation & IPE' }}</title>
 
     <div class="page-body">
         <div class="container-fluid">

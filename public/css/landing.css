@@ -1,10 +1,10 @@
 /* Premium Design Enhancements - Green Theme */
 :root {
-    --primary-color: #0d5c3e;
+    --primary-color: #002fba;
     /* Aura Green */
-    --primary-dark: #094a32;
+    --primary-dark: #002696;
     /* Darker Green */
-    --primary-light: #157a53;
+    --primary-light: #4d6be0;
     /* Light/WhatsApp Green */
     --accent-color: #ffffff;
     /* White for contrast */
@@ -12,7 +12,7 @@
     --text-dark: #1a1a1a;
     --glass-bg: rgba(255, 255, 255, 0.1);
     --glass-border: rgba(255, 255, 255, 0.2);
-    --glass-shadow: 0 8px 32px 0 rgba(0, 135, 81, 0.2);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 47, 186, 0.2);
 }
 
 body {
@@ -48,15 +48,15 @@ body {
 
 @keyframes pulse-green {
     0% {
-        box-shadow: 0 0 0 0 rgba(0, 135, 81, 0.4);
+        box-shadow: 0 0 0 0 rgba(0, 47, 186, 0.4);
     }
 
     70% {
-        box-shadow: 0 0 0 15px rgba(0, 135, 81, 0);
+        box-shadow: 0 0 0 15px rgba(0, 47, 186, 0);
     }
 
     100% {
-        box-shadow: 0 0 0 0 rgba(0, 135, 81, 0);
+        box-shadow: 0 0 0 0 rgba(0, 47, 186, 0);
     }
 }
 
@@ -96,7 +96,7 @@ body {
     color: #fff;
     padding: 10px 0;
     font-size: 0.9rem;
-    border-bottom: 1px solid rgba(0, 135, 81, 0.2);
+    border-bottom: 1px solid rgba(0, 47, 186, 0.2);
 }
 
 .top-bar i {
@@ -263,7 +263,7 @@ nav ul li a:not(.btn):hover:after {
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 135, 81, 0.4);
+    box-shadow: 0 8px 20px rgba(0, 47, 186, 0.4);
     color: #fff;
 }
 
@@ -282,7 +282,7 @@ nav ul li a:not(.btn):hover:after {
     background: var(--primary-color);
     color: #fff;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 135, 81, 0.3);
+    box-shadow: 0 5px 15px rgba(59, 112, 128, 0.3);
 }
 
 /* Testimonials */
@@ -381,7 +381,7 @@ nav ul li a:not(.btn):hover:after {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background: #157a53;
+    background: #4d6be0;
     color: white;
     width: 60px;
     height: 60px;
@@ -390,7 +390,7 @@ nav ul li a:not(.btn):hover:after {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+    box-shadow: 0 4px 20px rgba(0, 47, 186, 0.5);
     z-index: 9999;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-decoration: none;
@@ -400,7 +400,7 @@ nav ul li a:not(.btn):hover:after {
     transform: scale(1.1) rotate(10deg);
     background: #128C7E;
     color: white;
-    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.6);
+    box-shadow: 0 10px 25px rgba(0, 47, 186, 0.6);
 }
 
 /* Footer Banner */
@@ -752,8 +752,8 @@ footer {
     padding: 2.5rem 2rem;
     background: #ffffff;
     border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0, 135, 81, 0.05), 0 5px 15px rgba(0, 0, 0, 0.03);
-    border: 1px solid rgba(0, 135, 81, 0.08);
+    box-shadow: 0 15px 35px rgba(0, 47, 186, 0.05), 0 5px 15px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 47, 186, 0.08);
     transition: transform 0.3s ease;
 }
 
@@ -777,19 +777,19 @@ footer {
 }
 
 .auth-card .btn-primary {
-    background: linear-gradient(135deg, #0d5c3e 0%, #007043 100%);
+    background: linear-gradient(135deg, #002fba 0%, #0047e1 100%);
     border: none;
     font-weight: 700;
     padding: 0.85rem 1.5rem;
     border-radius: 12px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 135, 81, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 47, 186, 0.2);
 }
 
 .auth-card .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0, 135, 81, 0.3);
-    background: linear-gradient(135deg, #007043 0%, #005c36 100%);
+    box-shadow: 0 6px 15px rgba(0, 47, 186, 0.3);
+    background: linear-gradient(135deg, #0047e1 0%, #0038b3 100%);
 }
 
 .auth-card .form-control {
@@ -801,8 +801,8 @@ footer {
 }
 
 .auth-card .form-control:focus {
-    border-color: #0d5c3e;
-    box-shadow: 0 0 0 3px rgba(0, 135, 81, 0.1);
+    border-color: #002fba;
+    box-shadow: 0 0 0 3px rgba(0, 47, 186, 0.1);
     background-color: #fff;
 }
 
@@ -836,3 +836,4 @@ footer {
         padding: 2rem 1.5rem;
     }
 }
+

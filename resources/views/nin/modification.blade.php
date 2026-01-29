@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Smart Link - {{ $title ?? 'NIN Modification' }}</title>
+    <title>Digital Verify - {{ $title ?? 'NIN Modification' }}</title>
 
     <div class="page-body">
         <div class="container-fluid">

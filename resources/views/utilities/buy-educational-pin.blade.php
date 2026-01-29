@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Imam Data Sub - Buy Educational Pin</title>
+    <title>Digital Verify - Buy Educational Pin</title>
 
     <!-- Start::row-1 -->
     <div class="row">
