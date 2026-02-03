@@ -143,7 +143,7 @@
                             ['modal' => '#verifyModal', 'icon' => 'ti-id-badge', 'color' => 'bg-primary', 'name' => 'Verify NIN'],
                             ['modal' => '#verifyBVNModal', 'icon' => 'ti-id-badge', 'color' => 'bg-info', 'name' => 'Verify (BVN / TIN)'],
                             ['route' => route('nin-validation'), 'icon' => 'ti-user-plus', 'color' => 'bg-warning', 'name' => 'Validation'],
-                            ['route' => route('nin-validation'), 'icon' => 'ti-user-plus', 'color' => 'bg-danger', 'name' => 'IPE'],
+                            ['route' => route('ipe.index'), 'icon' => 'ti-user-plus', 'color' => 'bg-danger', 'name' => 'IPE'],
                             ['route' => route('modification'), 'icon' => 'ti-user-plus', 'color' => 'bg-primary', 'name' => 'BVN Modification'],
                             ['route' => route('nin-modification'), 'icon' => 'ti-user-plus', 'color' => 'bg-success', 'name' => 'NIN Modification'],
                             ['route' => route('bvn-crm'), 'icon' => 'ti-user-plus', 'color' => 'bg-info', 'name' => 'BVN CRM'],
@@ -321,9 +321,9 @@
                 <div class="modal-body p-4">
                     @php
                         $verifyServices = [
-                            ['route' => route('nin.verification.index'), 'icon' => 'ti-fingerprint', 'color' => 'bg-primary', 'name' => 'Verify Phone NO'],
-                            ['route' => route('nin.verification.index'), 'icon' => 'ti-credit-card', 'color' => 'bg-info', 'name' => 'Verify NIN'],
-                             ['route' => route('nin.verification.index'), 'icon' => 'ti-credit-card', 'color' => 'bg-secondary', 'name' => 'Verify DEMO'],
+                            ['route' => route('nin.verification.index'), 'icon' => 'ti-fingerprint', 'color' => 'bg-primary', 'name' => 'Verify NIN'],
+                            ['route' => route('nin.phone.index'), 'icon' => 'ti-credit-card', 'color' => 'bg-info', 'name' => 'Verify Phone No'],
+                            ['route' => route('nin.demo.index'), 'icon' => 'ti-credit-card', 'color' => 'bg-secondary', 'name' => 'Verify DEMO'],
                         ];
                     @endphp
 

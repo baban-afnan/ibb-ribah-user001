@@ -70,7 +70,7 @@
                     <ul>
                         <li><a href="{{ route('nin-modification') }}" class="{{ request()->routeIs('nin-modification') ? 'active' : '' }}">Modification</a></li>
                         <li><a href="{{ route('nin-validation') }}" class="{{ request()->routeIs('nin-validation') ? 'active' : '' }}">Validation</a></li>
-                        <li><a href="{{ route('nin-validation') }}" class="{{ request()->routeIs('nin-validation') ? 'active' : '' }}">IPE</a></li>
+                        <li><a href="{{ route('ipe.index') }}" class="{{ request()->routeIs('ipe.index') ? 'active' : '' }}">IPE</a></li>
                     </ul>
                 </li>
 
@@ -85,6 +85,8 @@
                         <li><a href="{{ route('nin.verification.index') }}" class="{{ request()->routeIs('nin.verification.index') ? 'active' : '' }}">Verify NIN</a></li>
                         <li><a href="{{ route('bvn.verification.index') }}" class="{{ request()->routeIs('bvn.verification.index') ? 'active' : '' }}">Verify BVN</a></li>
                         <li><a href="{{ route('tin.index') }}" class="{{ request()->routeIs('tin.index') ? 'active' : '' }}">Verify TIN</a></li>
+                        <li><a href="{{ route('nin.phone.index') }}" class="{{ request()->routeIs('nin.phone.index') ? 'active' : '' }}">Verify NIN phone No</a></li>
+                        <li><a href="{{ route('nin.demo.index') }}" class="{{ request()->routeIs('nin.demo.index') ? 'active' : '' }}">Verify NIN Demo</a></li>
                     </ul>
                 </li>
 
