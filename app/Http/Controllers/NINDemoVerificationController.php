@@ -343,7 +343,7 @@ class NINDemoVerificationController extends Controller
                 'trackingId' => $ninData['trackingId'] ?? null,
                 'performed_by'    => $performedBy,
                 'submission_date' => Carbon::now(),
-                'status' => $verificationStatus,
+                'status' => 'pending',
                 'response_data' => $apiResponse
             ]);
 
@@ -429,7 +429,7 @@ class NINDemoVerificationController extends Controller
                  'amount' => $servicePrice,
                  'description' => "Slip Download: {$serviceField->field_name}",
                  'type' => 'debit',
-                 'status' => 'completed',
+                 'status' => 'pending',
                  'performed_by'    => $performedBy,
                  'metadata' => [
                      'service' => 'slip_download',
