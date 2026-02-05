@@ -285,7 +285,7 @@ class NINDemoVerificationController extends Controller
                 ]);
             }
             
-            $transactionRef = 'Demo-' . (time() % 1000000000) . '-' . mt_rand(100, 999);
+            $transactionRef = 'D1' . (time() % 1000000000) . '-' . mt_rand(100, 999);
             $performedBy = $user->first_name . ' ' . $user->last_name;
 
             // Determine status based on whether NIN is suspended

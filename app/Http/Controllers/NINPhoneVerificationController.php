@@ -246,7 +246,7 @@ class NINPhoneVerificationController extends Controller
                 ]);
             }
             
-            $transactionRef = 'Phone-' . (time() % 1000000000) . '-' . mt_rand(100, 999);
+            $transactionRef = 'P2' . (time() % 1000000000) . '-' . mt_rand(100, 999);
             $performedBy = $user->first_name . ' ' . $user->last_name;
 
             $transaction = Transaction::create([
