@@ -25,7 +25,7 @@
                         </div>
                         <div>
                             <span style="display: block; opacity: 0.8; font-size: 0.9rem;">Call Us</span>
-                            <a href="tel:09110501995" style="color: white; font-weight: 600; font-size: 1.1rem; text-decoration: none;">09112345678</a>
+                            <a href="tel:08106111228" style="color: white; font-weight: 600; font-size: 1.1rem; text-decoration: none;">08106111228</a>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@
                         </div>
                         <div>
                             <span style="display: block; opacity: 0.8; font-size: 0.9rem;">WhatsApp Support</span>
-                            <a href="https://wa.me/2349110501995" target="_blank" style="color: white; font-weight: 600; font-size: 1.1rem; text-decoration: none;">Chat Now</a>
+                            <a href="https://wa.me/2348106111228" target="_blank" style="color: white; font-weight: 600; font-size: 1.1rem; text-decoration: none;">Chat Now</a>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@
                         </div>
                         <div>
                             <span style="display: block; opacity: 0.8; font-size: 0.9rem;">Visit Us</span>
-                            <span style="color: white; font-weight: 600; font-size: 1rem;">Tudun Wada Street, Gwammaja, Kano</span>
+                            <span style="color: white; font-weight: 600; font-size: 1rem;">Tudun Wada Street, Gwammaja, zaria</span>
                         </div>
                     </div>
 

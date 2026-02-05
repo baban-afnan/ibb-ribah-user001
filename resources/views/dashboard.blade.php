@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Digital Verify - {{ $title ?? 'Dashboard' }}</title>
+    <title>Biometric id - {{ $title ?? 'Dashboard' }}</title>
 
     <!-- Announcement Banner -->
     @if(isset($announcement) && $announcement)

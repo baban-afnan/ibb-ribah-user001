@@ -1,5 +1,5 @@
 <x-app-layout>
- <title>Digital Verify - {{ $title ?? 'Wallet Funding' }}</title>
+ <title>Biometric id - {{ $title ?? 'Wallet Funding' }}</title>
 
     <div class="container-fluid py-4 px-md-4">
         <!-- Page Header -->

@@ -1,7 +1,15 @@
 <!-- Header -->
 <div class="header">
     <div class="main-header">
-        <!-- Header Left - Logo -->
+         <!-- Header Left - Logo -->
+        <div class="header-left">
+            <a href="{{ route('dashboard') }}" class="logo">
+                <img src="{{ asset('assets/images/logo/logo-favicon.png') }}" alt="Logo" style="height: 20px;">
+            </a>
+            <a href="{{ route('dashboard') }}" class="dark-logo">
+                <img src="{{ asset('assets/images/logo/logo-favicon.png') }}" alt="Logo" style="height: 40px;">
+            </a>
+        </div>
        
 
         <!-- Mobile Menu Button -->
@@ -30,7 +38,7 @@
                         </span>
                         <input type="text" class="form-control" placeholder="Search in services">
                         <span class="input-group-text">
-                            <kbd>CTRL + /</kbd>
+                            <kbd>Search + me</kbd>
                         </span>
                     </div>
                     

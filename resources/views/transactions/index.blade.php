@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Digital Verify - Transactions</title>
+    <title>Biometric id - Transactions</title>
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 

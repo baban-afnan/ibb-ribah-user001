@@ -1,5 +1,5 @@
 <x-app-layout>
-    <title>Digital Verify - Transaction Receipt</title>
+    <title>Biometric id - Transaction Receipt</title>
 
     @push('styles')
     <style>

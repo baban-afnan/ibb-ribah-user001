@@ -1,6 +1,8 @@
 <x-app-layout>
-    <title>Digital Verify - {{ $title ?? 'Buy Airtime' }}</title>
-    {{-- Custom CSS for active state --}}
+    <title>Biometric id - {{ $title ?? 'Buy Airtime' }}</title>
+    
+    
+    
     @push('styles')
     <style>
         .network-option {

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Digital Verify - {{ $title ?? 'Welcome to Digital Verify' }}</title>
+        <title>Biometric id - {{ $title ?? 'Welcome to Biometric id' }}</title>
 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600,700,800&display=swap" rel="stylesheet" />
@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
         <!-- Open Graph / WhatsApp Meta Tags -->
-        <meta property="og:title" content="Digital Verify Sub - Innovative Digital Solutions">
+        <meta property="og:title" content="Biometric id Sub - Innovative Digital Solutions">
         <meta property="og:description" content="Empowering northern Nigeria through innovative digital solutions and smart technology services.">
         <meta property="og:image" content="{{ asset('assets/img/logo/logo.png') }}">
         <meta property="og:url" content="{{ url('/') }}">
@@ -36,7 +36,7 @@
         <header>
             <div class="container header-container">
                 <a href="#" class="logo">
-                    <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Digital Verify Sub" style="height: 50px; margin-right: 10px;">
+                    <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Biometric id Sub" style="height: 30px; margin-right: 10px;">
                 </a>
                 <div class="mobile-menu">
                     <i class="fas fa-bars"></i>
@@ -56,13 +56,13 @@
 
         <!-- Hero Section -->
         <section class="hero" id="home" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 47, 186, 0.4)), 
-             url('{{ asset('assets/images/logo/hero.webp') }}') no-repeat center center/cover; min-height: 100vh; display: flex; align-items: center;">
+             url('{{ asset('assets/images/logo/hero.jpg') }}') no-repeat center center/cover; min-height: 100vh; display: flex; align-items: center;">
             <div class="container hero-content text-center">
                 <h1 class="text-dark mb-4" data-aos="fade-down" data-aos-duration="1000" style="font-size: 3.5rem; font-weight: 800; color: #fff !important; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
-                    Agency and Verification Services for Your Business
+                    BVN & NIN verification made easy with Biometric id
                 </h1>
                 <p class="text-white mb-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" style="font-size: 1.25rem; max-width: 800px; margin: 0 auto; line-height: 1.6; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">
-                    Experience premium agency services tailored for growth. Affordable, reliable, and innovative solutions at your fingertips.
+                    Empowering Nigeria through innovative digital solutions and smart technology services. We are committed to helping businesses thrive in the digital age with our cutting-edge BVN and NIN verification services.
                 </p>
                 <div class="hero-btns" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <a href="{{route ('register')}}" class="btn btn-primary btn-lg me-3">
@@ -89,7 +89,7 @@
                     <h2 style="color: #fff; font-weight: 800; font-size: 2.8rem; margin-top: 10px;">Trusted by Leaders</h2>
                     <hr style="width: 80px; height: 4px; background: #fff; margin: 20px auto; border: none; border-radius: 2px;">
                     <p class="text-white-50" style="max-width: 650px; margin: 0 auto; font-size: 1.15rem;">
-                        See what our partners and clients have to say about their experience working with Digital Verify.
+                        See what our partners and clients have to say about their experience working with Biometric id.
                     </p>
                 </div>
 
@@ -98,11 +98,11 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"Digital Verify Sub transformed our operations with cutting-edge solutions. Their support team is always responsive and professional! Truly a game changer for our business."</p>
+                            <p class="review-text">"Biometric id Sub transformed our operations with cutting-edge solutions. Their support team is always responsive and professional! Truly a game changer for our business."</p>
                             <div class="reviewer-info">
-                                <img src="{{ asset('assets/images/avatar/avatar-8.jpg') }}" alt="Abdulrahman Musa">
+                                <img src="{{ asset('assets/images/avatar/avatar-8.jpg') }}" alt="Hassan Musa">
                                 <div>
-                                    <h4>Abdulrahman Musa</h4>
+                                    <h4>Hassan Musa</h4>
                                     <span>CEO, NorthernTech</span>
                                     <div class="stars">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
@@ -116,12 +116,12 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"Working with Digital Verify Sub has been a seamless experience. Their expertise and attention to detail are unmatched. They delivered exactly what we needed, on time."</p>
+                            <p class="review-text">"Working with Biometric id Sub has been a seamless experience. Their expertise and attention to detail are unmatched. They delivered exactly what we needed, on time."</p>
                             <div class="reviewer-info">
-                                <img src="{{ asset('assets/images/avatar/avatar-3.jpg') }}" alt="Fatima Bello">
+                                <img src="{{ asset('assets/images/avatar/avatar-3.jpg') }}" alt="Sahalu saidu">
                                 <div>
-                                    <h4>Fatima Bello</h4>
-                                    <span>Manager, Digital Verify Sub Logistics</span>
+                                    <h4>Sahalu saidu</h4>
+                                    <span>Manager, Biometric id Sub Logistics</span>
                                     <div class="stars">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                     </div>
@@ -134,12 +134,12 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="testimonial-card-premium">
                             <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
-                            <p class="review-text">"The quality of service and support we've received from Digital Verify Sub is outstanding. Highly recommended for any business looking to scale digitally."</p>
+                            <p class="review-text">"The quality of service and support we've received from Biometric id Sub is outstanding. Highly recommended for any business looking to scale digitally."</p>
                             <div class="reviewer-info">
                                 <img src="{{ asset('assets/images/avatar/avatar-1.jpg') }}" alt="Emeka Johnson">
                                 <div>
-                                    <h4>Emeka Johnson</h4>
-                                    <span>IT Director, Digital Verify Sub Ltd</span>
+                                    <h4>Ahmad Bola Turnubu</h4>
+                                    <span>IT Director, Biometric id Sub Ltd</span>
                                     <div class="stars">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                     </div>
@@ -162,7 +162,7 @@
                 <div class="row g-5">
                     <!-- Company Info -->
                     <div class="col-lg-4 col-md-6">
-                        <h2 style="color: #002fba; font-weight: 800; margin-bottom: 25px; font-size: 2rem;">Digital Verify Sub</h2>
+                        <h2 style="color: #002fba; font-weight: 800; margin-bottom: 25px; font-size: 2rem;">Biometric id Sub</h2>
                         <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 30px;">
                             Providing innovative technology solutions to help businesses thrive in the digital world. We are committed to excellence and sustainable growth in Northern Nigeria.
                         </p>
@@ -208,15 +208,15 @@
                         <ul class="footer-contact list-unstyled">
                             <li style="margin-bottom: 20px; display: flex;">
                                 <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-map-marker-alt"></i></div>
-                                <span style="color: rgba(255,255,255,0.8);">Tudun Wada Street, Gwammaja, Kano</span>
+                                <span style="color: rgba(255,255,255,0.8);">Tudun Wada Street, Gwammaja, Zaria</span>
                             </li>
                             <li style="margin-bottom: 20px; display: flex;">
                                 <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-phone"></i></div>
-                                <span style="color: rgba(255,255,255,0.8);">09112345678</span>
+                                <span style="color: rgba(255,255,255,0.8);">08106111228</span>
                             </li>
                             <li style="margin-bottom: 20px; display: flex;">
                                 <div style="width: 30px; color: #002fba; margin-top: 2px;"><i class="fas fa-envelope"></i></div>
-                                <span style="color: rgba(255,255,255,0.8);">safanane@gmail.com</span>
+                                <span style="color: rgba(255,255,255,0.8);">biometricidcustomercare@gmail.com</span>
                             </li>
                         </ul>
                     </div>
@@ -225,7 +225,7 @@
                 <hr style="border-color: rgba(255,255,255,0.1); margin: 60px 0 30px;">
                 
                 <div class="footer-bottom text-center">
-                    <p style="color: rgba(255,255,255,0.6); margin: 0;">&copy; {{ date('Y') }} Digital Verify Sub. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #002fba;"></i> by Digital Verify Sub Team.</p>
+                    <p style="color: rgba(255,255,255,0.6); margin: 0;">&copy; {{ date('Y') }} Biometric id Sub. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #002fba;"></i> by Biometric id Sub Team.</p>
                 </div>
             </div>
         </footer>
@@ -259,17 +259,17 @@
                     <div class="modal-body">
                         <div class="text-center mb-4">
                             <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo" style="height: 60px;">
-                            <h4 class="mt-3 text-dark">Digital Verify Sub Data Privacy Commitment</h4>
+                            <h4 class="mt-3 text-dark">Biometric id Sub Data Privacy Commitment</h4>
                         </div>
 
                         <p class="lead text-center mb-4" style="font-size: 1.1rem; color: #555;">
-                            At Digital Verify Sub, we are committed to protecting your personal data in compliance with the 
+                            At Biometric id Sub, we are committed to protecting your personal data in compliance with the 
                             <strong>Nigeria Data Protection Regulation (NDPR) 2019</strong>.
                         </p>
 
                         <div class="policy-section">
                             <h5>1. Introduction</h5>
-                            <p>This Privacy Policy explains how Digital Verify Sub collects, uses, and protects your personal information when you use our digital solutions, including our website, mobile applications, and NIN/BVN services.</p>
+                            <p>This Privacy Policy explains how Biometric id Sub collects, uses, and protects your personal information when you use our digital solutions, including our website, mobile applications, and NIN/BVN services.</p>
                         </div>
                         
                         <div class="policy-section">
