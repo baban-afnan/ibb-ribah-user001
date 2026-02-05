@@ -163,30 +163,29 @@
 							</div>
 						</div>
 					</div>
+                    <!-- Transaction Pin -->
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body">
+                            <h6 class="text-primary mb-3 d-flex align-items-center">
+                                <i class="fas fa-key me-2"></i>Transaction PIN<span class="text-danger">*</span>
+                            </h6>
 
-					<!-- Transaction Pin -->
-					<div class="card border-0 shadow-sm mb-4">
-						<div class="card-body">
-							<h6 class="text-primary mb-3 d-flex align-items-center">
-								<i class="fas fa-key me-2"></i>Transaction PIN<span class="text-danger">*</span>
-							</h6>
-
-							<div class="row g-3">
-								<div class="col-md-12">
-									<div class="form-floating">
-										<input type="password" class="form-control" id="transaction_pin" name="pin"
-											inputmode="numeric" pattern="[0-9]{5}" minlength="5" maxlength="5" required
-											placeholder="5-digit PIN" aria-describedby="pinHelp">
-										<label for="transaction_pin">5-digit Transaction PIN</label>
-									</div>
-									<div id="pinHelp" class="form-text small text-muted mt-2">
-										Create a secure 5-digit numeric PIN for your transactions. Do not share this PIN with anyone.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- /Transaction Pin -->
+                            <div class="row g-3">
+                                <div class="col-md-12">
+                                    <div class="form-floating">
+                                        <input type="password" class="form-control" id="transaction_pin" name="pin"
+                                            inputmode="numeric" pattern="[0-9]{5}" minlength="5" maxlength="5" required
+                                            placeholder="5-digit PIN" aria-describedby="pinHelp">
+                                        <label for="transaction_pin">5-digit Transaction PIN</label>
+                                    </div>
+                                    <div id="pinHelp" class="form-text small text-muted mt-2">
+                                        Create a secure 5-digit numeric PIN for your transactions. Do not share this PIN with anyone.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Transaction Pin -->
 
 					<!-- Terms and Submit -->
 					<div class="form-check mb-4">
