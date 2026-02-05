@@ -255,7 +255,7 @@ class NINPhoneVerificationController extends Controller
                 'amount' => $servicePrice,
                 'description' => "NIN Phone Verification - {$serviceField->field_name}",
                 'type' => 'debit',
-                'status' => 'pending',
+                'status' => 'completed',
                 'performed_by'    => $performedBy,
                 'metadata' => [
                     'service' => 'verification',

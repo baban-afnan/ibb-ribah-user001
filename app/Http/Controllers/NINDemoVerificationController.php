@@ -429,7 +429,7 @@ class NINDemoVerificationController extends Controller
                  'amount' => $servicePrice,
                  'description' => "Slip Download: {$serviceField->field_name}",
                  'type' => 'debit',
-                 'status' => 'pending',
+                 'status' => 'completed',
                  'performed_by'    => $performedBy,
                  'metadata' => [
                      'service' => 'slip_download',
