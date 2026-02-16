@@ -150,6 +150,7 @@
                             ['route' => route('bvn-crm'), 'icon' => 'ti-user-plus', 'color' => 'bg-info', 'name' => 'BVN CRM'],
                             ['route' => route('phone.search.index'), 'icon' => 'ti-user-plus', 'color' => 'bg-success', 'name' => 'BVN Search'],
                             ['route' => route('support'), 'icon' => 'ti-message-plus', 'color' => 'bg-primary', 'name' => 'support'],
+                            ['route' => route('first-account.index'), 'icon' => 'ti-home-plus', 'color' => 'bg-primary', 'name' => 'First Bank'],
                         ];
                     @endphp
 
