@@ -42,6 +42,7 @@
                     <ul>
                         <li><a href="{{ route('airtime') }}" class="{{ request()->routeIs('airtime') ? 'active' : '' }}">Buy Airtime</a></li>
                         <li><a href="{{ route('buy-data') }}" class="{{ request()->routeIs('buy-data') ? 'active' : '' }}">Buy Data</a></li>
+                        <li><a href="{{ route('buy-sme-data') }}" class="{{ request()->routeIs('buy-sme-data') ? 'active' : '' }}">Buy SME Data</a></li>
                         <li><a href="{{ route('electricity') }}" class="{{ request()->routeIs('electricity') ? 'active' : '' }}">Pay Electric</a></li>
                     </ul>
                 </li>
@@ -89,6 +90,24 @@
                         <li><a href="{{ route('nin.demo.index') }}" class="{{ request()->routeIs('nin.demo.index') ? 'active' : '' }}">Verify NIN Demo</a></li>
                     </ul>
                 </li>
+
+                  <!-- Account opening -->
+                <li class="submenu">
+                    <a href="javascript:void(0);">
+                        <i class="ti ti-home-plus"></i>
+                        <span>Open Account</span>
+                        <span class="menu-arrow"></span>
+                    </a>
+                    <ul>
+                        <li><a href="{{ route('first-account.index') }}" class="{{ request()->routeIs('first-account.index') ? 'active' : '' }}">First Bank</a></li>
+                        <li><a href="#">Access Bank</a></li>
+                        <li><a href="#">United Bank for Africa</a></li>
+                        <li><a href="#">Wema Bank</a></li>
+                        <li><a href="#">Zenith Bank</a></li>
+                        
+                    </ul>
+                </li>
+
 
                 <!-- Account Section -->
                 <li class="menu-title"><span>Account</span></li>

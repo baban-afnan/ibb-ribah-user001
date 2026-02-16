@@ -19,6 +19,8 @@ use App\Http\Controllers\Agency\TinRegistrationController;
 use App\Http\Controllers\Agency\NinValidationController;
 use App\Http\Controllers\Agency\NinModificationController;
 use App\Http\Controllers\Agency\IpeController;
+use App\Http\Controllers\Action\SmeDataController;
+use App\Http\Controllers\Agency\FirstAccountController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -62,6 +64,17 @@ Route::middleware('auth')->group(function () {
         Route::get('/airtime', [AirtimeController::class, 'airtime'])->name('airtime');
         Route::post('/buy-airtime', [AirtimeController::class, 'buyAirtime'])->name('buyairtime');
 
+         // SME Data (New Service)
+    Route::prefix('sme-data')->group(function () {
+        Route::get('/', [SmeDataController::class, 'index'])->name('buy-sme-data');
+        Route::post('/buy', [SmeDataController::class, 'buySMEdata'])->name('buy-sme-data.submit');
+    });
+
+    // SME Data AJAX Routes (as requested)
+    Route::get('/fetch-data-type', [SmeDataController::class, 'fetchDataType']);
+    Route::get('/fetch-data-plan', [SmeDataController::class, 'fetchDataPlan']);
+    Route::get('/fetch-sme-data-bundles-price', [SmeDataController::class, 'fetchSmeBundlePrice']);
+
         // Data
         Route::get('/data', [DataController::class, 'data'])->name('buy-data');
         Route::post('/buy-data', [DataController::class, 'buydata'])->name('buydata');
@@ -69,11 +82,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/fetch-data-bundles-price', [DataController::class, 'fetchBundlePrice'])->name('fetch.bundle.price');
         Route::post('/verify-pin', [DataController::class, 'verifyPin'])->name('verify.pin');
 
-        Route::get('/sme-data', [DataController::class, 'sme_data'])->name('sme-data');
-        Route::get('/fetch-data-type', [DataController::class, 'fetchDataType']);
-        Route::get('/fetch-data-plan', [DataController::class, 'fetchDataPlan']);
-        Route::get('/fetch-sme-data-bundles-price', [DataController::class, 'fetchSmeBundlePrice']);
-        Route::post('/buy-sme-data', [DataController::class, 'buySMEdata'])->name('buy-sme-data');
+
 
         // Education
         Route::get('/education', [EducationalController::class, 'pin'])->name("education");
@@ -175,6 +184,12 @@ Route::middleware('auth')->group(function () {
             Route::get('/check/{id}', [IpeController::class, 'check'])->name('ipe.check');
             Route::get('/{id}/details', [IpeController::class, 'details'])->name('ipe.details');
             Route::post('/batch-check', [IpeController::class, 'batchCheck'])->name('ipe.batch-check');
+        });
+
+        // First Account Routes
+        Route::prefix('first-account')->group(function () {
+            Route::get('/', [FirstAccountController::class, 'index'])->name('first-account.index');
+            Route::post('/', [FirstAccountController::class, 'store'])->name('first-account.store');
         });
 
         // BVN Services & CRM

@@ -181,7 +181,7 @@
             <div class="receipt-body">
                 <!-- Brand Header -->
                 <div class="receipt-brand">
-                    <h4>Digital Verify</h4>
+                    <h4>Bio smart Verify ID</h4>
                     <p class="text-muted small mb-0">Official Transaction Receipt</p>
                 </div>
 
@@ -189,7 +189,7 @@
                 <div class="text-center mb-4">
                     <span class="status-badge">
                         <i class="bi bi-check-circle-fill"></i>
-                        Success
+                       Transaction Successful
                     </span>
                 </div>
 
@@ -228,10 +228,6 @@
                             <p>Request ID</p>
                             <h6>{{ session('request_id', 'N/A') }}</h6>
                         </div>
-                    </div>
-
-                    <div class="detail-box">
-                        <h6 class="section-label">Payment Breakdown</h6>
                         @if(session('amount'))
                         <div class="detail-item">
                             <p>Value</p>
